@@ -29,7 +29,13 @@
               "essentials/images",
               "essentials/settings",
               "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/reusable-snippets",
+              {
+                "group": "test",
+                "pages": [
+                  "essentials/untitled-page"
+                ]
+              }
             ]
           }
         ]
@@ -100,5 +106,8 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "fonts": {
+    "family": "Inter"
   }
 }
