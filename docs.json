@@ -3,11 +3,14 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#2a7cff",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/icon.svg",
+    "dark": "/images/icon.svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -84,8 +87,9 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/fullblack.svg",
+    "dark": "/images/fullwhite.svg",
+    "href": "https://wotnot.io"
   },
   "navbar": {
     "links": [
@@ -102,9 +106,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/wotnot_io",
+      "linkedin": "https://www.linkedin.com/company/wotnot-io",
+      "youtube": "https://www.youtube.com/c/WotNot-io",
+      "website": "https://wotnot.io"
     }
   },
   "fonts": {
